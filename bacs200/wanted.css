@@ -9,7 +9,14 @@ h1 {
   margin-bottom: .3em;
   text-decoration: underline;
 }
-
+h2 {
+  text-align: center;
+  font-size: 0.5em;
+  color: #800000;
+  background-color: red;
+  margin-bottom: .3em;
+  text-decoration: underline;
+}
 table {
   margin: .3em;
   width: 290px;
