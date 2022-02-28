@@ -18,13 +18,13 @@ th {
 td {
   padding-left: .5em;
   padding-right: .5em;
-  border: 1px solid #900;
-  background-color: #ffc;
+  border: 1px solid #8B0000;
+  background-color: #B22222;
 }
 
 #trHeader {
   text-decoration: underline;
-  color: #900;
+  color: #8B0000;
 }
 
 .centerCell {
