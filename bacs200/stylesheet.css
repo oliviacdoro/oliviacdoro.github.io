@@ -19,6 +19,11 @@
   font-weight: bold;
   font-style:italic;
 }
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src: https://fonts.google.com/specimen/Playfair+Display;
+  font-style:normal;
+}
 head {
     display: none;
     font-family: 'Raleway', sans-serif;
