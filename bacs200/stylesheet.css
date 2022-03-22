@@ -1,13 +1,12 @@
-html {
-    display: block;
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: https://fonts.google.com/specimen/Raleway;
+  font-style:normal;
 }
 head {
     display: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-}
-meta {
-    display: none;
 }
 title {
     display: none;
