@@ -58,6 +58,12 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+body {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-weight: 300;
+}
+
 footer {
     display: block;
     font-family: 'Playfair Display', serif;
