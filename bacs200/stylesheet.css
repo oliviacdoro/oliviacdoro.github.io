@@ -22,24 +22,20 @@ body {
     margin: 8px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    background-color: #f4c2c2;
 }
 header {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    background-color: #F8F8FF;
 }
 h1 {
     display: block;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    background-color: #F8F8FF;
 }
 p {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    background-color: #f4c2c2
 }
 main {
     display: block;
@@ -56,4 +52,7 @@ footer {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
 }
-
+{
+	background-color:#f4c2c2;
+	color:#F8F8FF;
+}
