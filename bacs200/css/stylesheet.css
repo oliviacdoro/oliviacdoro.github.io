@@ -21,8 +21,6 @@
 }
 head {
     display: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
 }
 title {
     display: none;
@@ -41,15 +39,15 @@ h1 {
     display: block;
 }
 p {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 ul {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 li {
-    text-align: center;
+    text-align: left;
     list-style-position: inside;
 }
 main {
@@ -63,8 +61,6 @@ h2 {
 }
 footer {
     display: block;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
 }
 * {
 	background-color:#A3DFAD;
