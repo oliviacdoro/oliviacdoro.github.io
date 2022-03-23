@@ -1,47 +1,47 @@
 @font-face {
   font-family: 'Raleway', sans-serif;
-  src:url("fonts/Raleway/Raleway-Regular.ttf") format('truetype');
+  src:url("/bacs200/fonts/Raleway/Raleway-Regular.ttf") format('truetype');
   font-style:normal;
 }
 @font-face {
   font-family: 'Raleway', sans-serif;
-  src:url("fonts/Raleway/Raleway-Bold.ttf") format('truetype');
+  src:url("/bacs200/fonts/Raleway/Raleway-Bold.ttf") format('truetype');
   font-style:bold;
 }
 @font-face {
   font-family: 'Raleway', sans-serif;
-  src:url("fonts/Raleway/Raleway-Italic.ttf") format('truetype');
+  src:url("/bacs200/fonts/Raleway/Raleway-Italic.ttf") format('truetype');
   font-style:italic;
 }
 @font-face {
   font-family: 'Raleway', sans-serif;
-  src:url("fonts/Raleway/Raleway-BoldItalic.ttf") format('truetype');
+  src:url("/bacs200/fonts/Raleway/Raleway-BoldItalic.ttf") format('truetype');
   font-weight: bold;
   font-style:italic;
 }
+* Raleway - "sans-serif"; used for titling*
+* Playfair Display - "serif"; used for blocks of text*
 @font-face {
   font-family: 'Playfair Display', serif;
-  src:url("fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
+  src:url("/bacs200/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
   font-style:normal;
 }
 @font-face {
   font-family: 'Playfair Display', serif;
-  src:url("fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
+  src:url("/bacs200/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
   font-style:bold;
 }
 @font-face {
   font-family: 'Playfair Display', serif;
-  src:url("fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
+  src:url("/bacs200/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
   font-style:italic;
 }
 @font-face {
   font-family: 'Playfair Display', serif;
-  src:url("fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
+  src:url("/bacs200/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
   font-weight: bold;
   font-style:italic;
 }
-* Raleway - "Sans-serif"; used for titling*
-* Playfair Display - "Serif"; used for blocks of text*
 head {
     display: none;
 }
@@ -62,15 +62,15 @@ h1 {
     display: block;
 }
 p {
-    text-align: left;
+    text-align: center;
     list-style-position: inside;
 }
 ul {
-    text-align: left;
+    text-align: center;
     list-style-position: inside;
 }
 li {
-    text-align: left;
+    text-align: center;
     list-style-position: inside;
 }
 main {
