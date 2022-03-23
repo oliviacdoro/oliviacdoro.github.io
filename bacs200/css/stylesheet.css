@@ -19,6 +19,29 @@
   font-weight: bold;
   font-style:italic;
 }
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
+  font-style:normal;
+}
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
+  font-style:bold;
+}
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
+  font-style:italic;
+}
+@font-face {
+  font-family: 'Playfair Display', serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
+  font-weight: bold;
+  font-style:italic;
+}
+* Raleway - "Sans-serif"; used for titling*
+* Playfair Display - "Serif"; used for blocks of text*
 head {
     display: none;
 }
