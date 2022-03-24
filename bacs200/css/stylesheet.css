@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Raleway", sans-serif;
-  src:url("/fonts/Raleway/Raleway-Regular.ttf") format('truetype');
+  src:url("fonts/Raleway/Raleway-Regular.ttf") format('truetype');
   font-style:normal;
 }
 @font-face {
   font-family: "Raleway", sans-serif;
-  src:url("/fonts/Raleway/Raleway-Bold.ttf") format('truetype');
+  src:url("fonts/Raleway/Raleway-Bold.ttf") format('truetype');
   font-style:bold;
 }
 @font-face {
   font-family: "Raleway", sans-serif;
-  src:url("/fonts/Raleway/Raleway-Italic.ttf") format('truetype');
+  src:url("fonts/Raleway/Raleway-Italic.ttf") format('truetype');
   font-style:italic;
 }
 @font-face {
   font-family: "Raleway", sans-serif;
-  src:url("/fonts/Raleway/Raleway-BoldItalic.ttf") format('truetype');
+  src:url("fonts/Raleway/Raleway-BoldItalic.ttf") format('truetype');
   font-weight: bold;
   font-style:italic;
 }
@@ -23,22 +23,22 @@
 * Playfair Display - "serif"; used for blocks of text*
 @font-face {
   font-family: "Playfair Display", serif;
-  src:url("/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
   font-style:normal;
 }
 @font-face {
   font-family: "Playfair Display", serif;
-  src:url("/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
   font-style:bold;
 }
 @font-face {
   font-family: "Playfair Display", serif;
-  src:url("/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
   font-style:italic;
 }
 @font-face {
   font-family: "Playfair Display", serif;
-  src:url("/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
+  src:url("fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
   font-weight: bold;
   font-style:italic;
 }
