@@ -44,9 +44,13 @@
 }
 head {
     display: none;
+    font-family:"Raleway";
+    font-style:normal;
 }
 title {
     display: none;
+    font-family:"Raleway";
+    font-style:normal;
 }
 link {
     display: none;
@@ -54,36 +58,45 @@ link {
 body {
     text-align: center;
     list-style-position: inside;
+    font-family:"Playfair Display";
 }
 header {
     display: block;
 }
 h1 {
-    display: block;
+	font-family:"Raleway";
+	font-style:normal;
+}
+h2 {
+	font-family:"Playfair Display";
 }
 p {
+    font-family:"Playfair Display";
     text-align: center;
     list-style-position: inside;
 }
 ul {
     text-align: center;
     list-style-position: inside;
+    font-family:"Raleway";
+    font-style:normal;
 }
 li {
     text-align: center;
     list-style-position: inside;
+    font-family:"Raleway";
+    font-style:normal;
 }
 main {
     display: block;
+    font-family:"Playfair Display";
 }
 section {
     display: block;
 }
-h2 {
-    display: block;
-}
 footer {
     display: block;
+    font-family:"Playfair Display";
 }
 * {
 	background-color:#A3DFAD;
