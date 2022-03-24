@@ -44,12 +44,12 @@
 }
 head {
     display: none;
-    font-family:"Raleway";
+    font-family: "Raleway", sans-serif;
     font-style:normal;
 }
 title {
     display: none;
-    font-family:"Raleway";
+    font-family: "Raleway", sans-serif;
     font-style:normal;
 }
 link {
@@ -58,22 +58,22 @@ link {
 body {
     text-align: center;
     list-style-position: inside;
-    font-family:"Playfair Display";
+    font-family: "Playfair Display", serif;
     font-style:normal;
 }
 header {
     display: block;
 }
 h1 {
-	font-family:"Raleway";
+	font-family: "Raleway", sans-serif;
 	font-style:normal;
 }
 h2 {
-	font-family:"Playfair Display";
+	font-family: "Playfair Display", serif;
 	font-style:normal;
 }
 p {
-    font-family:"Playfair Display";
+    font-family: "Playfair Display", serif;
     font-style:normal;
     text-align: center;
     list-style-position: inside;
@@ -81,18 +81,18 @@ p {
 ul {
     text-align: center;
     list-style-position: inside;
-    font-family:"Raleway";
+    font-family: "Raleway", sans-serif;
     font-style:normal;
 }
 li {
     text-align: center;
     list-style-position: inside;
-    font-family:"Raleway";
+    font-family: "Raleway", sans-serif;
     font-style:normal;
 }
 main {
     display: block;
-    font-family:"Playfair Display";
+    font-family: "Playfair Display", serif;
     font-style:normal;
 }
 section {
@@ -100,7 +100,7 @@ section {
 }
 footer {
     display: block;
-    font-family:"Playfair Display";
+    font-family: "Playfair Display", serif;
     font-style:normal;
 }
 * {
