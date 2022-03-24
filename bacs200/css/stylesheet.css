@@ -59,6 +59,7 @@ body {
     text-align: center;
     list-style-position: inside;
     font-family:"Playfair Display";
+    font-style:normal;
 }
 header {
     display: block;
@@ -69,9 +70,11 @@ h1 {
 }
 h2 {
 	font-family:"Playfair Display";
+	font-style:normal;
 }
 p {
     font-family:"Playfair Display";
+    font-style:normal;
     text-align: center;
     list-style-position: inside;
 }
@@ -90,6 +93,7 @@ li {
 main {
     display: block;
     font-family:"Playfair Display";
+    font-style:normal;
 }
 section {
     display: block;
@@ -97,6 +101,7 @@ section {
 footer {
     display: block;
     font-family:"Playfair Display";
+    font-style:normal;
 }
 * {
 	background-color:#A3DFAD;
