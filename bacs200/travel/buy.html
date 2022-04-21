@@ -1,103 +1,113 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!--<link rel="stylesheet" href="https://sanchez-s.github.io/bacs200/css/bacs200.css">-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <title>Mykonos</title>
-        <style>
-            .carousel-item
-            {
-                height:500px;
-            }
-            .carousel-item img
-            {
-                height: 100%;
-            }
-        </style>
-    </head>
-    <body>
-        <header class="text-center">
-            <div class="container-fluid bg-light">
-                <div class="row">
-                    <div class="col">
-                        <h1>Mykonos, Greece</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md">
-                        <a class="nav-item" href="/bacs200/index.html">Home</a>
-                    </div>
-                    <div class="col-md">
-                        <a class="nav-item" href="/bacs200/travel/buy.html">Book Now!</a>
-                    </div>
-                </div>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="css/bacs200.css">-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<title>Page Title</title>
+</head>
+<body>
+<header class="text-center">
+    <div class="container-fluid bg-light text-dark">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-1">Mykonos</h1>
+                <h2 class="text-muted">Greece</h2>
             </div>
-        </header>
-    <main>
-                    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-              <h1 class="display-4 fw-normal">Pricing</h1>
-              <p class="fs-5 text-muted">Here are the vacation packages available for Mykonos Island</p>
+        </div>
+        <div class="row">
+            <div class="col-md"> <a class="nav-item" href="index.html">Home</a> </div>
+            <div class="col-md"> <a class="nav-item" href="buy.html">Buy</a> </div>
+            <div class="col-md"> <a class="nav-item" href="about.html">About</a> </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container bg-secondary">
+        <div class="row">
+            <div class="col-md-7 col-lg-8">
+                <h4 class="mb-3">Billing address</h4>
+                <form class="needs-validation" novalidate>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                            <div class="invalid-feedback"> Valid first name is required. </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                            <div class="invalid-feedback"> Valid last name is required. </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="username" class="form-label">Username</label>
+                            <div class="input-group has-validation"> <span class="input-group-text">@</span>
+                                <input type="text" class="form-control" id="username" placeholder="Username" required>
+                                <div class="invalid-feedback"> Your username is required. </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                            <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                            <div class="invalid-feedback"> Please enter your shipping address. </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="address2" class="form-label">Address 2 <span class="text-muted">(Optional)</span></label>
+                            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                        </div>
+                        <div class="col-md-5">
+                            <label for="country" class="form-label">Country</label>
+                            <select class="form-select" id="country" required>
+                                <option value="">Choose...</option>
+                                <option>United States</option>
+                            </select>
+                            <div class="invalid-feedback"> Please select a valid country. </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="state" class="form-label">State</label>
+                            <select class="form-select" id="state" required>
+                                <option value="">Choose...</option>
+                                <option>California</option>
+                            </select>
+                            <div class="invalid-feedback"> Please provide a valid state. </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="zip" class="form-label">Zip</label>
+                            <input type="text" class="form-control" id="zip" placeholder="" required>
+                            <div class="invalid-feedback"> Zip code required. </div>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="same-address">
+                        <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="save-info">
+                        <label class="form-check-label" for="save-info">Save this information for next time</label>
+                    </div>
+                    <hr class="my-4">
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                </form>
             </div>
-            
-            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                  <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Lowest Price</h4>
-                  </div>
-                  <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$50<small class="text-muted fw-light">/mo</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Cozy Downtown Villa</li>
-                      <li>One Week Advance Reservation</li>
-                    </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Map to the Villa</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm">
-                  <div class="card-header py-3">
-                    <h4 class="my-0 fw-normal">Grecian Escape</h4>
-                  </div>
-                  <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$250<small class="text-muted fw-light">/day</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Intimate Seafront Suite</li>
-                      <li>Sunset views</li>
-                      <li><strong>Free Wi-Fi and Ammenities</strong></li>
-                    </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Book your escape now!</button>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                  <div class="card-header py-3 text-white bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">All-Inclusive Greek Getaway</h4>
-                  </div>
-                  <div class="card-body">
-                    <h1 class="card-title pricing-card-title">$500<small class="text-muted fw-light">/night</small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                      <li>Exclusive access for the entire duration of your stay</li>
-                      <li>All-inclusive resort feel without the crowds</li>
-                      <li>Adults only paradise for those 21 and above</li>
-                    </ul>
-                    <button type="button" class="w-100 btn btn-lg btn-primary">Reserve a Day</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-    </main>
-  <footer>
-		  <div class="container-fluid bg-dark">
-		  <p class="text-center">© Copyright 2022 - UNC BACS200</p>
-		  </div>
-	  </footer>
-	<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-  </body>
-</html>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="container-fluid bg-dark text-light">
+        <p class="text-center">&copy; Copyright 2022</p>
+    </div>
+</footer>
 
+<!-- Bootstrap JavaScript Bundle with Popper --> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+        <script src="scripts/form-validation.js"></script>
+    </body>
+</html>
