@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src:url("fonts/Raleway/Raleway-Regular.ttf") format('truetype');
+  font-style:normal;
+}
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src:url("fonts/Raleway/Raleway-Bold.ttf") format('truetype');
+  font-style:bold;
+}
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src:url("fonts/Raleway/Raleway-Italic.ttf") format('truetype');
+  font-style:italic;
+}
+@font-face {
+  font-family: "Raleway", sans-serif;
+  src:url("fonts/Raleway/Raleway-BoldItalic.ttf") format('truetype');
+  font-weight: bold;
+  font-style:italic;
+}
+* Raleway - "sans-serif"; used for titling*
+* Playfair Display - "serif"; used for blocks of text*
+@font-face {
+  font-family: "Playfair Display", serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Regular.ttf") format('truetype');
+  font-style:normal;
+}
+@font-face {
+  font-family: "Playfair Display", serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Bold.ttf") format('truetype');
+  font-style:bold;
+}
+@font-face {
+  font-family: "Playfair Display", serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-Italic.ttf") format('truetype');
+  font-style:italic;
+}
+@font-face {
+  font-family: "Playfair Display", serif;
+  src:url("fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf") format('truetype');
+  font-weight: bold;
+  font-style:italic;
+}
+head {
+    display: none;
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
+}
+title {
+    display: none;
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
+}
+link {
+    display: none;
+}
+body {
+    text-align: center;
+    list-style-position: inside;
+    font-family: "Playfair Display", serif;
+    font-style:normal;
+}
+header {
+    display: block;
+}
+h1 {
+	font-family: "Raleway", sans-serif;
+	font-style:normal;
+}
+h2 {
+	font-family: "Playfair Display", serif;
+	font-style:normal;
+}
+p {
+    font-family: "Playfair Display", serif;
+    font-style:normal;
+    text-align: center;
+    list-style-position: inside;
+}
+ul {
+    text-align: center;
+    list-style-position: inside;
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
+}
+li {
+    text-align: center;
+    list-style-position: inside;
+    font-family: "Raleway", sans-serif;
+    font-style:normal;
+}
+main {
+    display: block;
+    font-family: "Playfair Display", serif;
+    font-style:normal;
+}
+section {
+    display: block;
+}
+footer {
+    display: block;
+    font-family: "Playfair Display", serif;
+    font-style:normal;
+}
+* {
+	background-color:#89CFF0;
+	color:#D4006A;
+}
